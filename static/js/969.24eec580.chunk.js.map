@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/969.24eec580.chunk.js","mappings":"2IAUA,UARA,WACE,OACE,yBAAK,wBAIT,C","sources":["pages/online trainings/OnlineTrainings.js"],"sourcesContent":["import React from 'react'\n\nfunction OnlineTrainings() {\n  return (\n    <div>\n      online training page\n    </div>\n  )\n}\n\nexport default OnlineTrainings\n"],"names":[],"sourceRoot":""}

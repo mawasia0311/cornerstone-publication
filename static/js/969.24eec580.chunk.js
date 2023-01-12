@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcornerstone=self.webpackChunkcornerstone||[]).push([[969],{4969:function(n,e,r){r.r(e);r(2791);var t=r(184);e.default=function(){return(0,t.jsx)("div",{children:"online training page"})}}}]);
+//# sourceMappingURL=969.24eec580.chunk.js.map
