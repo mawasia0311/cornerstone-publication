@@ -1,0 +1,33 @@
+.loader {
+  margin: auto;
+  margin-top: 250px;
+  border: 10px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 15px solid crimson;
+  width: 100px;
+  height: 100px;
+  animation: spinner 500ms linear infinite;
+}
+
+.loadingComponent{
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(52, 52, 52, 0.266);
+}
+ 
+
+
+@keyframes spinner {
+
+
+  0% { transform: rotate(0deg); }
+
+
+  100% { transform: rotate(360deg); }
+
+
+}
+

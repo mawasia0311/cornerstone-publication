@@ -1,0 +1,38 @@
+.bootstrapHeader{
+  z-index: 3 !important;
+}
+
+.navlink{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    transition: 200ms;
+    font-weight: 600;
+}
+.navlink:hover{
+    transform:scale(1.05);
+    color: black;
+}
+
+.navbarHeader{
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 768px) {
+  .navlink{
+    margin: 0px;
+    margin-top: 4px;
+  }
+  .navlink:hover{
+    transform: scale(1);
+    font-weight: 600;
+  }
+  .navbarHeader{
+    margin: 0px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+}

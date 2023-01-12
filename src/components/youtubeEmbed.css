@@ -1,0 +1,5 @@
+.video-responsive {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}

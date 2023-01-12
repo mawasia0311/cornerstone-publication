@@ -1,0 +1,135 @@
+.learningApp{
+    margin-top: 50px;
+}
+
+#aboutApp{
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+#question{
+    width: 70vw;
+    text-align: center;
+    /* border: solid; */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(65, 0, 0);
+}
+#aboutAppAns{
+    width: 70vw;
+    padding: 30px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    /* border: solid; */
+}
+
+.appImage{
+    width: 250px;
+    height: auto;
+}
+
+.downloadSection{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.downloadSection > .textSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+}
+
+.downloadButtons > .button{
+    width: 180px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    transition: 300ms;
+}
+
+.downloadButtons{
+    margin-top: 30px;
+}
+
+.downloadButtons > .button:hover{
+
+    transform: translateY(-5px);
+}
+
+.downloadButtons > .button:nth-child(1){
+    background-color: crimson;
+    color: white;
+    font-weight: 500;
+}
+
+.downloadButtons > .button:nth-child(2){
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+
+.qrCode{
+    width: 200px;
+    height: auto;
+}
+
+.videoGuideSection{
+    padding: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoGuideSection > iframe{
+    margin-top: 30px;
+    width: 550px;
+    height: 300px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .qrCode{
+        width: 150px;
+        height: auto;
+    }
+
+    .appImage{
+        display: none;
+    }
+    #question{
+        font-weight: 600;
+        font-size: 1.3rem;
+        width: 90vw;
+    }
+
+    #aboutAppAns{
+        font-size: 1rem;
+        width: 90vw;
+    }
+
+    .downloadSection > .textSection > h3{
+        font-size: 1.2rem;
+    }
+
+    .downloadButtons > .button{
+        font-size: 0.9rem;
+        display: block;
+    }
+
+    .videoGuideSection > iframe{
+        width: 350px;
+        height: 220px;
+    }
+
+}
